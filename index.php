@@ -35,8 +35,6 @@
           for ($i=0; $i < $arr_lenght; $i++) {
             $jsArray[] = array((int) $arr_user[$i][0], $arr_user[$i][1], $arr_user[$i][2]);
           }
-          echo json_encode($jsArray,  JSON_UNESCAPED_UNICODE);
-
 
           if ($result) {
             $rows = mysqli_num_rows($result);
